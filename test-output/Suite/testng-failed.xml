@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrder"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrder">
+        <methods>
+          <include name="closeApp"/>
+          <include name="loginToApp"/>
+          <include name="launchApp"/>
+          <include name="logoutFromApp"/>
+          <include name="verifyUserIsAbleToPlaceOrder"/>
+        </methods>
+      </class> <!-- com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

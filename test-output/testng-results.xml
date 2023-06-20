@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T07:08:16Z" name="Default suite" finished-at="2023-06-15T07:10:03Z" duration-ms="107160">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T07:08:16Z" name="Default test" finished-at="2023-06-15T07:10:03Z" duration-ms="107160">
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking@332729ad]" started-at="2023-06-15T12:38:16Z" name="launchApp" finished-at="2023-06-15T12:38:21Z" duration-ms="5152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking@332729ad]" started-at="2023-06-15T12:38:21Z" name="loginToApp" finished-at="2023-06-15T12:38:44Z" depends-on-methods="com.ty.shoppersstack.common.BaseTest.launchApp" duration-ms="22832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyUserAbleToPlaceOrderFromNetbanking()[pri:0, instance:com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking@332729ad]" started-at="2023-06-15T12:38:44Z" name="verifyUserAbleToPlaceOrderFromNetbanking" finished-at="2023-06-15T12:39:08Z" duration-ms="24562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToPlaceOrderFromNetbanking -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking@332729ad]" started-at="2023-06-15T12:39:08Z" name="logoutFromApp" finished-at="2023-06-15T12:40:03Z" duration-ms="54435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking@332729ad]" started-at="2023-06-15T12:40:03Z" name="closeApp" finished-at="2023-06-15T12:40:03Z" depends-on-methods="com.ty.shoppersstack.common.BaseTest.logoutFromApp" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromNetbanking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

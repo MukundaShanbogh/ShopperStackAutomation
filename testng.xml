@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToDeleteAddress"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToCreateProfiles"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToSearchProduct"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToCancelOrder"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToRemoveProductFromWishList"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrderFromCreditCard"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToSearchCoupon"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToAddProductToWishList"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToPlaceOrder"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToViewOrderedProduct"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToUpdateAddress"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToSelectMultipleCategories"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToLoginLogout"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToEditProfile"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToCreateCoupon"/>
+      <class name="com.ty.shoppersstack.test.VerifyUserAbleToAddProductToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
